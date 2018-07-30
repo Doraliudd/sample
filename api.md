@@ -1,6 +1,6 @@
 <font size="3">
 <font face="微软雅黑">
-# API简介 #
+#API简介#
 API（ApplicationProgrammingInterface,应用程序编程接口）是一些预先定义的函数，目的是提供应用程序与开发人员基于某软件或硬件得以访问一组例程的能力，而开发者可以不用关心应用程序内部的实现。
 
 举一个简单的例子，有一个城市A一直没有通电，城市中群众考虑到没有电生活很不便捷，所以向城市B申请，B城市有专门的发电站；B城市经过讨论最终决定由本市的供电局为A城市拉了一根输电线路。但是现在虽然有了电缆，但是并没有接入到A城市；所以A城市的供电局人员需要按照B城市供电局的规范，将输电线路接入到A城市电站，以给市民使用。通过这个例子，A城市可以理解为需要对接的客户，B城市是销售易，B供电局是销售易API研发人员，A供电局是客户的研发人员，电缆便是我们的API。
@@ -30,7 +30,7 @@ API（ApplicationProgrammingInterface,应用程序编程接口）是一些预先
 
 <table><tr><td>
 >**<font color=red>NOTE：</font>：**无论是Open API还是Bulk API都使用了OAuth2.0协议进行安全认证，确保数据的安全访问，认证成功后，开发者可以使用系统分发的Access token对系统内的业务数据进行访问。参考OAuth安全验证[获取Access token]()。具体接口信息请参考[Open API Reference]()和[Bulk API Reference]()。
-</tr></td><table>
+</tr></td></table>
 
 ## 术语定义 ##
 
