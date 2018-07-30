@@ -32,11 +32,7 @@ API（ApplicationProgrammingInterface,应用程序编程接口）是一些预先
 |术语|解释说明|
 |-|-|-|
 |HTTPS|销售易API是采用Https协议进行数据传输，是安全的加密传输协议。|
-|JSON|JSON是一种轻量级的数据交换格式，具有以下特点： 
-1.格式比较简单，易于读写，格式都是压缩的，占用带宽小;
-2.易于解析;
-3.支持多种语言;
-4.代码开发量较少，易于维护|
+|JSON|JSON是一种轻量级的数据交换格式，具有以下特点：1.格式比较简单，易于读写，格式都是压缩的，占用带宽小;2.易于解析;3.支持多种语言;4.代码开发量较少，易于维护|
 
 ><b style="color:red">NOTE:</b>无论是Open API还是Bulk API都使用了OAuth2.0协议进行安全认证，确保数据的安全访问，认证成功后，开发者可以使用系统分发的Access token对系统内的业务数据进行访问。参考OAuth安全验证[获取Access token]()。具体接口信息请参考[Open API Reference]()和[Bulk API Reference]()。
 
